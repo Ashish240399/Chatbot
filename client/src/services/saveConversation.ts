@@ -3,7 +3,7 @@ import axios from "axios";
 export const saveConv = async () => {
   try {
     const response = await axios.post(
-      "http://localhost:3000/api/saveConversation",
+      "https://chatbot-phi-one.vercel.app/api/saveConversation",
       {
         conversation: "dummy",
       }
